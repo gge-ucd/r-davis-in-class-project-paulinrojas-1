@@ -14,4 +14,4 @@ row.names(surveys_base)
 
 #challenge
 challenge_base <- surveys_base[(surveys_base[,2]>150),]
-
+colnames(surveys)
